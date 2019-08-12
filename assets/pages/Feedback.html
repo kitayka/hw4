@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Feedback</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<ul>
+				<h2>
+					<li>
+						<a href="main page.html">Главная страница</a>
+					</li>
+				</h2>
+			</ul>
+		</header>
+		<main>
+			<form method="post" action="https://mcslayer.com/hillel/post.php">
+				<label>Имя
+					<input type="text" name="first-name" placeholder="Имя" required="true">
+				</label>
+				<label>Фамилия
+					<input type="text" name="Surname" placeholder="Фамилия" required="true">
+				</label>
+				<label>Email
+					<input type="email" name="email" placeholder="email" required="true">
+				</label>
+				<label> Ваш пол:
+					<label>м
+						<input type="radio" name="sex" value="male" required="true">
+					</label>
+					<label>ж
+						<input type="radio" name="sex" value="female">
+					</label>
+				</label> <br>
+				<select name="Add_or_suggest" required="true">
+					<option value="Add">Дополнить информацию </option>
+					<option value="Suggest"> Предложить нововведения</option>
+				</select> <br>
+				<label>Подтвердите разрешение на обработку ваших персональных данных
+					<input type="checkbox" name="massage" required="true">
+				</label><br>
+				<textarea rows="8" cols="100">	
+				</textarea><br>
+				<button type="reset">Reset</button>
+				<button type="submit">Отправить</button>
+			</form>
+		</main>
+	</body>
+</html>
